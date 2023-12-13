@@ -1,0 +1,159 @@
+/* components.module.css */
+.body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Cor de fundo azul suave */
+  color: #fff; /* Cor do texto branco */
+  
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  background-color: #98bdd6;
+  color: #fff;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.container a{
+  
+  text-decoration: none;
+}
+
+.container h1{
+  background-color: #98bdd6;
+  color: #fff;
+}
+
+.listContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.listItem {
+  background-color: #ecf0f1; /* Cor de fundo suave */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  margin: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-align: center;
+}
+
+.listItem p{
+  background-color: #ecf0f1;
+  color: #98bdd6;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.listItem href{
+  text-decoration: none;
+  color: inherit;
+}
+
+.listItem:hover {
+  background-color: #f2f2f2;
+}
+
+.item {
+  background-color: #ecf0f1; /* Cor de fundo suave */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.item p {
+  margin: 10px 0;
+}
+
+.goBack {
+  display: block;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #3498db; /* Azul pastel */
+  color: #fff; /* Texto branco */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.goBack:hover {
+  background-color: #2980b9; /* Cor ao passar o mouse */
+}
+
+.profileContainer {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #98bdd6; /* Cor de fundo suave */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.profileText {
+  font-size: 1.2rem;
+  margin: 10px 0;
+  background-color: #98bdd6;
+  color: white;
+}
+
+.header {
+  background-color: #98bdd6; /* Cor de fundo azul */
+  color: #fff; /* Cor do texto branco */
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between; /* Alteração para space-between */
+}
+
+.header h1 {
+  /* Mantive o estilo do h1 conforme sua especificação */
+  background-color: #98bdd6; /* Cor de fundo verde */
+  color: white; /* Cor do texto branco */
+  padding: 10px;
+  text-align: center;
+}
+
+.header .homeLink {
+  /* Adicionado estilo ao link "Home" */
+  background-color: #98bdd6;
+  padding: 10px;
+}
+
+.header .homeLink a {
+  /* Estilo do link "Home" */
+  color: white;
+  text-decoration: none;
+}
+
+.header h2 {
+  background-color: #98bdd6; /* Cor de fundo verde */
+  color: white; /* Cor do texto branco */
+}
+
+.footer {
+  background-color: #98bdd6; /* Cor de fundo verde */
+  color: #fff; /* Cor do texto branco */
+  padding: 10px;
+  text-align: center;
+}
+
+.footer p{
+  background-color: #98bdd6; /* Cor de fundo verde */
+  color: white; /* Cor do texto branco */
+  padding: 10px;
+  text-align: center;
+}
+
